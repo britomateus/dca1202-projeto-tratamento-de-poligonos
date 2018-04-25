@@ -12,17 +12,17 @@ int main()
     Point p1;
 
     cout << "Quantidade de Vertices: "<< ret.getNumPoints() <<endl<<endl;
-    cout << "Area do retangulo: " << ret.area() << endl<<endl;
-    cout << "Tranladar o retangulo ";
+    cout << "Area: " << ret.area() << endl<<endl;
+    cout << "Transladar ";
     ret.imprime();
-    cout << "em 1 na coordernada x e 2 na coordenada y " <<endl;
-    cout << "retangulo com translacao: ";
-    ret.translada(1,2);
+    cout << "em 2 na coordernada x e 2 na coordenada y " <<endl;
+    cout << "depois da translacao: ";
+    ret.translada(2,2);
     ret.imprime();
 
     cout << endl;
 
-    cout << "Rotacao do retangulo "<<endl;
+    cout << "Rotacao"<<endl;
     cout << "Pontos iniciais"<<endl;
     ret.imprime();
     cout  << "Apos a rotacao "<<endl;
