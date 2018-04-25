@@ -14,40 +14,22 @@ int main()
     retangulo.imprime();
 
     cm = centro(0,0,3,4);
-    centro.imprime();
+    cm.imprime();
 
     cout << "Area: " << retangulo.area()<<endl;
 
     cout << "Transladar em (-3,4): ";
-    ret.translada(-3,4);
-    ret.imprime();
+    retangulo.translada(-3,4);
+    retangulo.imprime();
 
-    cout << "Area depois da translacao: " << ret.area()<<endl;
+    cout << "Area depois da translacao: " << retangulo.area()<<endl;
 
     cout<< "Rotacao "<<endl;
-    ret.rotaciona(M_PI/6, cm);
-    ret.imprime();
+    retangulo.rotaciona(M_PI/6, cm);
+    retangulo.imprime();
+    cout<<"Area rotacionada: "<<retangulo.area()<<endl;
     
-    /* Retangulo ret(5,5,5,5);
-    Point p1;
 
-    cout << "Quantidade de Vertices: "<< ret.getNumPoints() <<endl<<endl;
-    cout << "Area: " << ret.area() << endl<<endl;
-    cout << "Transladar ";
-    ret.imprime();
-    cout << "em 2 na coordernada x e 2 na coordenada y " <<endl;
-    cout << "depois da translacao: ";
-    ret.translada(2,2);
-    ret.imprime();
-
-    cout << endl;
-
-    cout << "Rotacao"<<endl;
-    cout << "Pontos iniciais"<<endl;
-    ret.imprime();
-    cout  << "Apos a rotacao "<<endl;
-    ret.rotaciona(M_PI, p1);
-    ret.imprime(); */
 }
 
 
